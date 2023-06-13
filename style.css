@@ -1,0 +1,63 @@
+body {
+    font-family: "roboto";
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 21px 0 21px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: black
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link {
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+.main {
+    padding: 66px 0 78px;
+    background: black;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.desc {
+    margin: 10px 0 0 0;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.btn {
+    color: white;
+    width: 200px;
+    height: 60px;
+    margin: 50px 0 0 0;
+}
